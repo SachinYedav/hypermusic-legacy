@@ -1,4 +1,6 @@
-# HyperMusic 2.1.0
+# HyperMusic 2.1.2 (Legacy React Native)
+
+> **Legacy Repository:** This is the legacy React Native edition of HyperMusic (`SachinYedav/hypermusic-legacy`). Historical source code, releases, and licenses are preserved here for existing users.
 
 [![React Native](https://img.shields.io/badge/React%20Native-0.86.0-0284c7?style=flat-square&logo=react)](https://reactnative.dev)
 [![Expo](https://img.shields.io/badge/Expo-v57-000020?style=flat-square&logo=expo)](https://expo.dev)
@@ -26,7 +28,7 @@ The official HyperStudio website provides a guided download experience for all A
 
 Prefer sideloading directly from GitHub? Grab the latest release from the releases page:
 
-[![Latest Release](https://img.shields.io/github/v/release/SachinYedav/HyperMusic?style=for-the-badge&label=Latest%20Release&color=238636)](../../releases/latest)
+[![Latest Release](https://img.shields.io/github/v/release/SachinYedav/hypermusic-legacy?style=for-the-badge&label=Latest%20Release&color=238636)](../../releases/latest)
 ---
 ## 📱 Key Features
 
@@ -85,8 +87,8 @@ Because HyperMusic utilizes deep C++ native bindings (Nitro Modules), a complete
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/SachinYedav/HyperMusic.git
-cd HyperMusic
+git clone https://github.com/SachinYedav/hypermusic-legacy.git
+cd hypermusic-legacy
 
 # 2. Install dependencies (including custom Nitro submodules)
 npm install
@@ -104,11 +106,9 @@ npm run android
 
 This entire codebase—spanning the custom React Native frontend, the C++ Nitro Module bindings, the resilient OkHttp network layer, and the native Kotlin extraction engine—is the result of relentless hard work, countless iterations, and a deep passion for building an elite music client. We have heavily leveraged modern AI-assisted engineering tools to accelerate our development and push boundaries, but the core architecture, design decisions, and final polish come from dedicated human craftsmanship.
 
-## 🐛 Maintenance & Future Roadmap
+## 🐛 Maintenance & Legacy Status
 
-HyperMusic 2.0 represents a massive architectural shift and a complete rewrite of our core engines. Because this is an exceptionally large and complex codebase, there is always a chance of encountering hidden bugs or edge-case inconsistencies that we haven't noticed yet. 
-
-If you encounter any issues, please report them! We are fully committed to continuously upgrading, debugging, and polishing this app. Our ultimate goal is to evolve HyperMusic into one of the most robust, advanced, and reliable streaming systems available, and we won't stop until we achieve that perfection.
+HyperMusic 2.x is the legacy React Native implementation (`com.studio.hypermusic`) and is in maintenance/legacy status (`v2.1.2` updates in-app repository links to `SachinYedav/hypermusic-legacy`). Historical source code and releases remain preserved here.
 
 ---
 

@@ -306,7 +306,7 @@ export function SettingsScreen() {
           <SettingsActionRow
             icon={Terminal}
             label="Source Code (GitHub)"
-            onPress={() => Linking.openURL('https://github.com/SachinYedav/hypermusic')}
+            onPress={() => Linking.openURL('https://github.com/SachinYedav/hypermusic-legacy')}
             colors={colors}
             isDark={isDark}
             isExternal={true}
@@ -314,7 +314,7 @@ export function SettingsScreen() {
           <SettingsActionRow
             icon={Bug}
             label="Report a Bug"
-            onPress={() => Linking.openURL('https://github.com/SachinYedav/hypermusic/issues')}
+            onPress={() => Linking.openURL('https://github.com/SachinYedav/hypermusic-legacy/issues')}
             isLast={true}
             colors={colors}
             isDark={isDark}

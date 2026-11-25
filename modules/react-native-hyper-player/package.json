@@ -1,6 +1,6 @@
 {
   "name": "react-native-hyper-player",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "private": true,
   "description": "Custom internal media engine for HyperMusic, built with Nitro Modules and AndroidX Media3.",
   "main": "./lib/commonjs/index.js",
@@ -35,15 +35,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/SachinYedav/hypermusic.git",
+    "url": "https://github.com/SachinYedav/hypermusic-legacy.git",
     "directory": "modules/react-native-hyper-player"
   },
   "author": "Sachin Yadav",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SachinYedav/hypermusic/issues"
+    "url": "https://github.com/SachinYedav/hypermusic-legacy/issues"
   },
-  "homepage": "https://github.com/SachinYedav/hypermusic/tree/main/modules/react-native-hyper-player#readme",
+  "homepage": "https://github.com/SachinYedav/hypermusic-legacy/tree/main/modules/react-native-hyper-player#readme",
   "devDependencies": {
     "@jamesacarr/eslint-formatter-github-actions": "^0.2.0",
     "@semantic-release/changelog": "^6.0.3",
