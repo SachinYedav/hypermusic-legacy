@@ -1,6 +1,13 @@
-# HyperMusic 2.1.2 (Legacy React Native)
+# HyperMusic — Legacy React Native Edition
 
-> **Legacy Repository:** This is the legacy React Native edition of HyperMusic (`SachinYedav/hypermusic-legacy`). Historical source code, releases, and licenses are preserved here for existing users.
+> **No longer maintained**
+>
+> This repository contains the original React Native implementation of HyperMusic.
+> It is preserved for historical reference; no further feature, bug-fix, or security updates are planned.
+>
+> Development continues in the native Android rewrite, built with Kotlin and Jetpack Compose.
+
+**[Native Android repository](https://github.com/SachinYedav/hypermusic)** · **[Download HyperMusic](https://gethypermusic.vercel.app/download)** · **[Latest releases](https://github.com/SachinYedav/hypermusic/releases/latest)**
 
 [![React Native](https://img.shields.io/badge/React%20Native-0.86.0-0284c7?style=flat-square&logo=react)](https://reactnative.dev)
 [![Expo](https://img.shields.io/badge/Expo-v57-000020?style=flat-square&logo=expo)](https://expo.dev)
@@ -14,22 +21,20 @@ Unlike traditional React Native streaming applications that suffer from JavaScri
 
 ---
 
-## 📥 Download & Quick Start
+## 📥 Downloads
 
-> The easiest and fastest way to get HyperMusic on your Android device.
+For the maintained native Android app, visit the [HyperMusic download page](https://gethypermusic.vercel.app/download) or [native GitHub releases](https://github.com/SachinYedav/hypermusic/releases).
 
-### 🌐 HyperStudio Marketplace *(Recommended)*
+> **Note:** The native Android edition uses a different package ID (`com.hypermusic` instead of `com.studio.hypermusic`), so it installs as a separate app and does not automatically migrate your existing library or downloads.
 
-The official HyperStudio website provides a guided download experience for all APK variants:
+### Historical React Native releases
 
-[![Download on HyperStudio](https://img.shields.io/badge/HyperStudio-Download%20HyperMusic-111318?style=for-the-badge&logo=android&logoColor=white)](https://hyperstudio-marketplace.vercel.app/product/hyper-music)
+[Historical React Native releases](https://github.com/SachinYedav/hypermusic-legacy/releases) and the [HyperStudio marketplace listing](https://hyperstudio-marketplace.vercel.app/product/hyper-music) remain available for reference. These React Native builds are no longer maintained.
 
-### 📦 GitHub Releases *(Direct APK)*
-
-Prefer sideloading directly from GitHub? Grab the latest release from the releases page:
-
-[![Latest Release](https://img.shields.io/github/v/release/SachinYedav/hypermusic-legacy?style=for-the-badge&label=Latest%20Release&color=238636)](../../releases/latest)
 ---
+
+The following sections document the legacy React Native application's features, architecture and build process.
+
 ## 📱 Key Features
 
 HyperMusic is engineered from the ground up for power-users, prioritizing a purely local-first, premium experience.
@@ -72,7 +77,7 @@ The presentation layer is crafted with state-of-the-art modern interface standar
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Building the Legacy Application
 
 ### Prerequisites
 
@@ -108,7 +113,9 @@ This entire codebase—spanning the custom React Native frontend, the C++ Nitro 
 
 ## 🐛 Maintenance & Legacy Status
 
-HyperMusic 2.x is the legacy React Native implementation (`com.studio.hypermusic`) and is in maintenance/legacy status (`v2.1.2` updates in-app repository links to `SachinYedav/hypermusic-legacy`). Historical source code and releases remain preserved here.
+HyperMusic 2.x (`com.studio.hypermusic`) is discontinued. Historical source code and releases remain preserved here.
+
+For issues and contributions concerning the native Android app, use the [active repository](https://github.com/SachinYedav/hypermusic). Legacy-specific issues are no longer accepted.
 
 ---
 
